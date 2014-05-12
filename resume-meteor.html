@@ -1,0 +1,77 @@
+<head>
+<title>resume-meteor</title>
+</head>
+
+<body>
+{{> frameList}}
+</body>
+
+<template name="frameList">
+  <div class="container">
+    <div class="row jumbotron">
+      <div class="col-md-12">
+        <div class="lead">
+          <h1>{{ about }}</h1>
+        </div>
+        <hr />
+      </div>
+      <div class="col-md-10">
+        <p class="lead">{{ presentation }}</p>
+      </div>
+      <div class="col-md-2 about-me pull-right">
+        <img src="images/profile.jpg" alt="Me" class="img-circle img-profile">
+        <br />
+        <a href="mailto:{{ contact }}" target="_blank">{{ contact }}</a>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-md-12">
+        <div class="lead">
+          <h1>{{ head }}</h1>
+        </div>
+        <hr />
+        <h1>Experience</h1>
+        <ul id="Work" class="list-unstyled">
+          {{#each workframes }}
+            {{> works }}
+          {{/each}}
+        </ul>
+        <h1>Study</h1>
+        <ul id="Study" class="list-unstyled">
+          {{#each studyframes }}
+            {{> studies }}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <footer class="footer">
+    Source code available on github:
+    <a href="http://github.com/kainlite/resume-meteor" target="_blank">Project code</a>
+    </footer>
+  </div>
+</template>
+
+<template name="works">
+  <li class="frame">
+    <div class="subtitle">
+      <strong><em>{{ title }}</em> in <em>{{ institution }}</em> - {{ from }} -> {{ to }}</strong>
+    </div>
+    <br />
+    <blockquote>
+      {{ description }}
+    </blockquote>
+  </li>
+</template>
+
+<template name="studies">
+  <li class="frame">
+    <div class="subtitle">
+      <strong><em>{{ title }}</em> in <em>{{ institution }}</em> - {{ from }} -> {{ to }}</strong>
+    </div>
+    <br />
+    <blockquote>
+      {{ description }}
+    </blockquote>
+  </li>
+</template>

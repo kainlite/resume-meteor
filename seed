@@ -1,0 +1,104 @@
+Frames.insert({
+  title: "Bachelor\'s degree, informatic",
+  from: "01/01/1999",
+  to: "01/01/2003",
+  institution: "E.P.E.T. Nº 4",
+  description: "Professional Informatic",
+  kind: "study"
+});
+Frames.insert({
+  title: "Basic Programming and Databases",
+  from: "01/01/2004",
+  to: "01/01/2005",
+  institution: "Institute Saavedra",
+  description: "Basics of C, Php, ASP, javascript, MSSQL, MySQL",
+  kind: "study"
+});
+Frames.insert({
+  title: "CCNA Cisco Certified Associate",
+  from: "01/01/2005",
+  to: "01/01/2007",
+  institution: "ISRI",
+  description: "CCNA / Networking",
+  kind: "study"
+});
+Frames.insert({
+  title: "ESR",
+  from: "01/01/2008",
+  to: "01/01/2009",
+  institution: "Proydesa",
+  description: "Enterprise Security & Risk",
+  kind: "study"
+});
+Frames.insert({
+  title: "Ruby on Rails",
+  from: "01/01/2011",
+  to: "01/12/2011",
+  institution: "UTN FRM",
+  description: "Ruby on rails course",
+  kind: "study"
+});
+Frames.insert({
+  title: "M101P",
+  from: "01/01/2013",
+  to: "01/12/2013",
+  institution: "MongoDB University",
+  description: "MongoDB for Python developers",
+  kind: "study"
+});
+Frames.insert({
+  title: "M102",
+  from: "01/01/2013",
+  to: "01/12/2013",
+  institution: "MongoDB University",
+  description: "MongoDB for system administrators",
+  kind: "study"
+});
+Frames.insert({
+  title: "General Game Playing",
+  from: "01/01/2013",
+  to: "01/12/2013",
+  institution: "Coursera",
+  description: "Concepts about AI and the making of your own automated player",
+  kind: "study"
+});
+Frames.insert({
+  title: "Sysadmin/Programmer/DevOps",
+  from: "01/08/2008",
+  to: "",
+  institution: "Workjoy Argentina S.A.",
+  description: "Infrastructure designer/implementator, Build systems to control and improve response times on sysadmin tasks, develop and deploy management system.",
+  kind: "work"
+});
+Frames.insert({
+  title: "Programmer",
+  from: "01/01/2013",
+  to: "31/05/2013",
+  institution: "Cirope S.A.",
+  description: "Ruby Programmer, using Rails framework",
+  kind: "work"
+});
+Frames.insert({
+  title: "Computer Technician",
+  from: "01/04/2008",
+  to: "01/08/2008",
+  institution: "Norfix S.A.",
+  description: "Tech support, Pc repairment, Networking",
+  kind: "work"
+});
+Frames.insert({
+  title: "Sysadmin",
+  from: "01/08/2005",
+  to: "01/02/2008",
+  institution: "S.T.I. Informatica",
+  description: "Network administration",
+  kind: "work"
+});
+Frames.insert({
+  title: "Computer Technician",
+  from: "01/01/2007",
+  to: "01/08/2008",
+  institution: "CyberPoints",
+  description: "Pc repairment, Network administration",
+  kind: "work"
+});
