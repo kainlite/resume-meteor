@@ -9,3 +9,5 @@ http
 coffeescript
 router
 bootstrap-3
+iron-router
+iron-router-progress
